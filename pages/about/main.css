@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,900;1,900&display=swap');
+* {
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-image: url(images/lake.jpg);
+    background-size: cover;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+a {
+    text-decoration-color: transparent;
+}
+
+.navbar {
+    position: absolute;
+    background-color: transparent;
+    width: 100000000000000000000000000000000000000cm;
+    height: 2cm;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(5px);
+    box-shadow: 10px 10px 12px #00000010, 10px 9px 10px #00000025;
+    font-size: 25px;
+}
+
+.navbar:hover {
+    transition: 100ms;
+    background-color: #9a9a9a10;
+}
+
+.navbar:not(hover) {
+    transition: 100ms;
+    background-color: transparent;
+}
+
+.credits {
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    left: 125px;
+}
+
+.credits:hover {
+    transition: 250ms;
+    background-color: #9a9a9a25;
+}
+
+.credits:not(hover) {
+    transition: 250ms;
+    background-color: #00000000;
+}
+
+.home {
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    left: 30px;
+}
+
+.home:hover {
+    transition: 250ms;
+    background-color: #9a9a9a25;
+}
+
+.home:not(hover) {
+    transition: 250ms;
+    background-color: #00000000;
+}
+
+.about {
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    left: 244px;
+}
+
+.about:hover {
+    transition: 250ms;
+    background-color: #9a9a9a25;
+}
+
+.about:not(hover) {
+    transition: 250ms;
+    background-color: #00000000;
+}
+
+.redirect-fb {
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    left: 352px;
+}
+
+.redirect-fb:hover {
+    transition: 250ms;
+    background-color: #9a9a9a25;
+}
+
+.redirect-fb:not(hover) {
+    transition: 250ms;
+    background-color: #00000000;
+}
+
+.navtext {
+    position: absolute;
+    left: 12.5cm;
+    top: .25cm;
+}
+
+.box {
+    content: "";
+    position: absolute;
+    height: 350px;
+    width: 600px;
+    background-color: #fff;
+    /*border: 1px solid #7a7a7a50;*/
+    border-radius: 10px;
+    left: 410px;
+    top: 185px;
+    padding: 10px;
+    box-shadow: 10px 5px 15px #00000015, 10px 8px 12px #00000015;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.close {
+    position: inherit;
+    height: 20px;
+    width: 20px;
+    left: 580px;
+    top: -2px;
+    background-color: #fff;
+    /*border: 1px solid #7a7a7a50;*/
+    text-align: center;
+    text-justify: inter-word;
+    padding: 10px;
+    font-weight: 100;
+    cursor: pointer;
+    color: #000;
+}
+
+.close:hover {
+    background-color: #f0000075;
+}
+
+.close:active {
+    background-color: #ff000099;
+}
+
+.what {
+    position: inherit;
+    height: 20px;
+    width: 20px;
+    left: 540px;
+    top: -2px;
+    background-color: transparent;
+    color: #777777ce;
+    /*border: 1px solid #7a7a7a50;*/
+    text-align: center;
+    text-justify: inter-word;
+    padding: 10px;
+    font-weight: 100;
+    cursor: pointer;
+    color: #000
+}
+
+.what:hover {
+    background-color: #79797950;
+}
+
+.photo {
+    position: absolute;
+    left: 940px;
+    top: 266px;
+    z-index: 2;
+}
+
+.contact1 {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    left: 840px;
+    top: 280px;
+    text-align: center;
+    text-justify: inter-word;
+    padding: 10px;
+    font-weight: 100;
+    cursor: pointer;
+    color: #000;
+    z-index: 2;
+    margin-left: -25px;
+    text-decoration: underline;
+}
+
+.email {
+    position: absolute;
+    left: 760px;
+    top: 280px;
+    z-index: 2;
+}
+
+.contact2 {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    left: 840px;
+    top: 350px;
+    text-align: center;
+    text-justify: inter-word;
+    padding: 10px;
+    font-weight: 100;
+    cursor: pointer;
+    color: #000;
+    z-index: 2;
+    text-decoration: underline;
+    margin-left: -25px;
+}
+
+.whatsapp {
+    position: absolute;
+    left: 760px;
+    top: 350px;
+    z-index: 2;
+}
+
+.contact3 {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    left: 840px;
+    top: 430px;
+    text-align: none;
+    text-justify: inter-word;
+    padding: 10px;
+    font-weight: 100;
+    cursor: pointer;
+    color: #000;
+    z-index: 2;
+    width: 300px;
+    text-decoration: underline;
+    margin-left: -25px;
+}
+
+.facebook {
+    position: absolute;
+    left: 760px;
+    top: 430px;
+    z-index: 2;
+}
+
+.titlebar {
+    position: absolute;
+    left: 500px;
+    top: 212px;
+    z-index: 2;
+    color: #000;
+}
+
+.titleicn {
+    position: absolute;
+    left: 453px;
+    top: 196px;
+    z-index: 2;
+}
+
+.atext {
+    position: absolute;
+    height: 50px;
+    width: 7.5cm;
+    font-size: small;
+    color: #000;
+    text-shadow: 10px 5px 15px #00000025, 10px 8px 12px #00000025;
+    left: 12.5cm;
+    top: 7.5cm;
+    z-index: 3;
+}
+
+.atext:hover {
+    cursor: default;
+}
+
+.titlebar:hover {
+    cursor: default;
+}

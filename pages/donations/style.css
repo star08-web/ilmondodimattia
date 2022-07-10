@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,900;1,900&display=swap');
+* {
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    text-decoration-color: #00000000;
+}
+
+body{
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    background-image: url(images/lake.jpg);
+    background-size: cover;
+    margin:0px;
+    padding:0px;
+    overflow: hidden;
+}
+
+a{
+    color:#fff;
+}
+
+.iban{
+    border: #fff solid 2px;
+    padding:10px;
+    border-radius: 10px;
+}
+
+.cont2 {
+    width:750px;
+    position: absolute;
+    top:2.5cm;
+    left:5cm;
+}
+
+.navbar {
+    position: absolute;
+    background-color: transparent;
+    width: 100000000000000000000000000000000000000cm;
+    height: 2cm;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(5px);
+    box-shadow: 10px 10px 12px #00000010, 10px 9px 10px #00000025;
+    font-size: 25px;
+}
+
+.navbar:hover {
+    transition: 100ms;
+    background-color: #9a9a9a10;
+}
+
+.navbar:not(hover) {
+    transition: 100ms;
+    background-color: transparent;
+}
+
+.credits {
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    left: 125px;
+}
+
+.credits:hover {
+    transition: 250ms;
+    background-color: #9a9a9a25;
+}
+
+.credits:not(hover) {
+    transition: 250ms;
+    background-color: #00000000;
+}
+
+.home {
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    left: 25px;
+}
+
+.home:hover {
+    transition: 250ms;
+    background-color: #9a9a9a25;
+    cursor: pointer;
+}
+
+.home:not(hover) {
+    transition: 250ms;
+    background-color: #00000000;
+}
+
+.about {
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    left: 245px;
+}
+
+.about:hover {
+    transition: 250ms;
+    background-color: #9a9a9a25;
+}
+
+.about:not(hover) {
+    transition: 250ms;
+    background-color: #00000000;
+}
+
+.redirect-fb {
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    left: 352px;
+}
+
+.redirect-fb:hover {
+    transition: 250ms;
+    background-color: #9a9a9a25;
+}
+
+.redirect-fb:not(hover) {
+    transition: 250ms;
+    background-color: #00000000;
+}
+
+.navtext {
+    position: absolute;
+    left: 12.5cm;
+    top: .25cm;
+}

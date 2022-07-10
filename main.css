@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,900;1,900&display=swap');
+* {
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-image: url(images/lake.jpg);
+    background-size: cover;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+a {
+    text-decoration: transparent;
+}
+
+.textcenter {
+    position: absolute;
+    font-size: 50px;
+    left: 12cm;
+    top: 2.5cm;
+    z-index: 2;
+}
+
+.fastbtn1 {
+    position: absolute;
+    top: 5cm;
+    left: 20cm;
+    border-radius: 5px;
+    background-color: rgb(75, 75, 75);
+    z-index: 3;
+    border: none;
+    padding: 10px;
+}
+
+.fastbtn1:hover {
+    transition: 250ms;
+    box-shadow: 10px 10px 12px #00000010, 10px 9px 10px #00000025;
+    /*background-color: rgb(95, 95, 95);*/
+}
+
+.fastbtn1:not(hover) {
+    transition: 250ms;
+    box-shadow: none;
+}
+
+.fastbtn1:active {
+    transition: 100ms;
+    background-color: rgb(95, 95, 95);
+}
+
+.fb1txt {
+    font-size: 20px;
+}
+
+.fastbtn2 {
+    position: absolute;
+    top: 8cm;
+    left: 17.4cm;
+    border-radius: 5px;
+    background-color: rgb(75, 75, 75);
+    z-index: 3;
+    border: none;
+    padding: 10px;
+}
+
+.fastbtn2:hover {
+    transition: 250ms;
+    box-shadow: 10px 10px 12px #00000010, 10px 9px 10px #00000025;
+    /*background-color: rgb(95, 95, 95);*/
+}
+
+.fastbtn2:not(hover) {
+    transition: 250ms;
+    box-shadow: none;
+}
+
+.fastbtn2:active {
+    transition: 100ms;
+    background-color: rgb(95, 95, 95);
+}
+
+.fb2txt {
+    font-size: 20px;
+}
+
+.fastbtn3 {
+    position: absolute;
+    top: 10cm;
+    left: 18.4cm;
+    border-radius: 5px;
+    background-color: rgb(75, 75, 75);
+    z-index: 3;
+    border: none;
+    padding: 10px;
+}
+
+.fastbtn3:hover {
+    transition: 250ms;
+    box-shadow: 10px 10px 12px #00000010, 10px 9px 10px #00000025;
+    /*background-color: rgb(95, 95, 95);*/
+}
+
+.fastbtn3:not(hover) {
+    transition: 250ms;
+    box-shadow: none;
+}
+
+.fastbtn3:active {
+    transition: 100ms;
+    background-color: rgb(95, 95, 95);
+}
+
+.fb3txt {
+    font-size: 20px;
+}
+
+.navbar {
+    position: absolute;
+    background-color: transparent;
+    width: 100000000000000000000000000000000000000cm;
+    height: 2cm;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(5px);
+    box-shadow: 10px 10px 12px #00000010, 10px 9px 10px #00000025;
+    font-size: 25px;
+}
+
+.navbar:hover {
+    transition: 100ms;
+    background-color: #9a9a9a10;
+}
+
+.navbar:not(hover) {
+    transition: 100ms;
+    background-color: transparent;
+}
+
+.credits {
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    left: 125px;
+}
+
+.credits:hover {
+    transition: 250ms;
+    background-color: #9a9a9a25;
+}
+
+.credits:not(hover) {
+    transition: 250ms;
+    background-color: #00000000;
+}
+
+.home {
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    left: 25px;
+}
+
+.home:hover {
+    transition: 250ms;
+    background-color: #9a9a9a25;
+    cursor: pointer;
+}
+
+.home:not(hover) {
+    transition: 250ms;
+    background-color: #00000000;
+}
+
+.about {
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    left: 245px;
+}
+
+.about:hover {
+    transition: 250ms;
+    background-color: #9a9a9a25;
+}
+
+.about:not(hover) {
+    transition: 250ms;
+    background-color: #00000000;
+}
+
+.redirect-fb {
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    left: 352px;
+}
+
+.redirect-fb:hover {
+    transition: 250ms;
+    background-color: #9a9a9a25;
+}
+
+.redirect-fb:not(hover) {
+    transition: 250ms;
+    background-color: #00000000;
+}
+
+.navtext {
+    position: absolute;
+    left: 12.5cm;
+    top: .25cm;
+}

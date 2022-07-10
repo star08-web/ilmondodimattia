@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,900;1,900&display=swap');
+* {
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+
+a {
+    text-decoration: #00000000;
+}
+
+body {
+    background-image: url(images/lake.jpg);
+    background-size: cover;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.star {
+    position: absolute;
+    top: 3.5cm;
+    left: 16cm;
+    border-radius: 5px;
+    background-color: rgb(75, 75, 75);
+    z-index: 3;
+    border: none;
+    padding: 10px;
+}
+
+.star:hover {
+    transition: 250ms;
+    box-shadow: 10px 10px 12px #00000010, 10px 9px 10px #00000025;
+    /*background-color: rgb(95, 95, 95);*/
+}
+
+.star:not(hover) {
+    transition: 250ms;
+    box-shadow: none;
+}
+
+.star:active {
+    transition: 100ms;
+    background-color: rgb(95, 95, 95);
+}
+
+.sttext {
+    font-size: 25px;
+}
+
+.silvestro {
+    position: absolute;
+    top: 3.5cm;
+    left: 22cm;
+    border-radius: 5px;
+    background-color: rgb(75, 75, 75);
+    z-index: 3;
+    border: none;
+    padding: 10px;
+}
+
+.silvestro:hover {
+    transition: 250ms;
+    box-shadow: 10px 10px 12px #00000010, 10px 9px 10px #00000025;
+    /*background-color: rgb(95, 95, 95);*/
+}
+
+.silvestro:not(hover) {
+    transition: 250ms;
+    box-shadow: none;
+}
+
+.silvestro:active {
+    transition: 100ms;
+    background-color: rgb(95, 95, 95);
+}
+
+.ssilvestro {
+    font-size: 25px;
+}
+
+.sfco {
+    position: absolute;
+    font-size: 50px;
+    left: 13cm;
+    top: 1cm;
+    z-index: 2;
+}
+
+.sfco:hover {
+    cursor: default;
+}
+
+.navbar {
+    position: absolute;
+    background-color: transparent;
+    width: 100000000000000000000000000000000000000cm;
+    height: 2cm;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(5px);
+    box-shadow: 10px 10px 12px #00000010, 10px 9px 10px #00000025;
+    font-size: 25px;
+}
+
+.navbar:hover {
+    transition: 100ms;
+    background-color: #9a9a9a10;
+}
+
+.navbar:not(hover) {
+    transition: 100ms;
+    background-color: transparent;
+}
+
+.credits {
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    left: 125px;
+}
+
+.credits:hover {
+    transition: 250ms;
+    background-color: #9a9a9a25;
+}
+
+.credits:not(hover) {
+    transition: 250ms;
+    background-color: #00000000;
+}
+
+.home {
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    left: 25px;
+}
+
+.home:hover {
+    transition: 250ms;
+    background-color: #9a9a9a25;
+}
+
+.home:not(hover) {
+    transition: 250ms;
+    background-color: #00000000;
+}
+
+.about {
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    left: 245px;
+}
+
+.about:hover {
+    transition: 250ms;
+    background-color: #9a9a9a25;
+}
+
+.about:not(hover) {
+    transition: 250ms;
+    background-color: #00000000;
+}
+
+.redirect-fb {
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    left: 352px;
+}
+
+.redirect-fb:hover {
+    transition: 250ms;
+    background-color: #9a9a9a25;
+}
+
+.redirect-fb:not(hover) {
+    transition: 250ms;
+    background-color: #00000000;
+}
+
+.navtext {
+    position: absolute;
+    left: 12.5cm;
+    top: .25cm;
+}
+
+.txt {
+    position: absolute;
+    width: 10000000px;
+    top: 1.52345678979098090765675454609797645331234656696589898456343456676465674657654354521cm;
+}
+
+.icons8text {
+    position: absolute;
+    top: 7.5cm;
+    left: 13cm;
+    border-top: 2px solid #9a9a9a;
+    padding-top: 25px;
+    text-align: none;
+    width: 700px;
+}
+
+.icons8href {
+    position: absolute;
+    top: 10cm;
+    left: 13cm;
+    border-radius: 5px;
+    background-color: rgb(75, 75, 75);
+    z-index: 3;
+    border: none;
+    padding: 10px;
+    font-size: x-large;
+}
+
+.icons8text:hover {
+    transition: 1s;
+    cursor: default;
+}
+
+.icons8href:hover {
+    transition: 250ms;
+    box-shadow: 10px 10px 12px #00000010, 10px 9px 10px #00000025;
+}
+
+.icons8href:active {
+    transition: 100ms;
+    background-color: rgb(95, 95, 95);
+}
+
+.icons8href:not(hover) {
+    transition: 250ms;
+    box-shadow: none;
+}
